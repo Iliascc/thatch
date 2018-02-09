@@ -1,0 +1,24 @@
+<head>
+    <!-- Basic Page Needs -->
+    <meta charset="UTF-8">
+    <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+    <meta name="description" content="{% if page.description %} {{ page.description }} {% else %} {{ site.description }}{% endif %}">
+    <meta name="author" content="{% if page.author %} {{ page.author }} {% else %} {{ site.author }}{% endif %}">
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="{{site.baseurl}}/assets/images/favicon.ico">
+    <!-- FONTS -->
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:100,300,400,400italic,700'>
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Patua+One:100,300,400,400italic,700'>
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic,900'>
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Lora:100,300,400,400italic,500,700,700italic'>
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:100,300,400,400italic,500,700,700italic'>
+    <!-- CSS -->
+    <link rel='stylesheet' href='{{site.baseurl}}/assets/css/global.css'>
+    <link rel='stylesheet' href='{{site.baseurl}}/assets/css/structure.css'>
+    <link rel='stylesheet' href='{{site.baseurl}}/assets/css/garden2.css'>
+    <link rel='stylesheet' href='{{site.baseurl}}/assets/css/custom.css'>
+    <!-- Revolution Slider -->
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/plugins/rs-plugin/css/settings.css"> 
+</head>

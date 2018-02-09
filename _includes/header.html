@@ -1,0 +1,35 @@
+<header id="Header">
+    <div class="header_placeholder"></div>
+    <div id="Top_bar">
+        <div class="container">
+            <div class="column one">
+                <div class="top_bar_left clearfix">
+                    <div class="logo">
+                        <a id="logo" href="index.html" title="BeGarden2 - BeTheme" data-height="70" data-padding="0"><img class="logo-main scale-with-grid" src="{{site.baseurl}}/assets/images/garden2.png" data-retina="{{site.baseurl}}/assets/images/retina-garden2.png" data-height="80" alt="garden2"><img class="logo-sticky scale-with-grid" src="{{site.baseurl}}/assets/images/garden2.png" data-retina="{{site.baseurl}}/assets/images/retina-garden2.png" data-height="80" alt="garden2"><img class="logo-mobile scale-with-grid" src="{{site.baseurl}}/assets/images/garden2.png" data-retina="{{site.baseurl}}/assets/images/retina-garden2.png" data-height="80" alt="garden2"><img class="logo-mobile-sticky scale-with-grid" src="{{site.baseurl}}/assets/images/garden2.png" data-retina="{{site.baseurl}}/assets/images/retina-garden2.png" data-height="80" alt="garden2">
+                        </a>
+                    </div>
+                    <div class="menu_wrapper">
+                        <nav id="menu" class="menu-main-menu-container">
+                            <ul id="menu-main-menu" class="menu">
+                                <li>
+                                    <a href="{{site.baseurl}}/index.html"><span>HOME</span></a>
+                                </li>
+                                <li>
+                                    <a href="{{site.baseurl}}/about.html"><span>ABOUT US</span></a>
+                                </li>
+                                <li>
+                                    <a href="{{site.baseurl}}/work.html"><span>WORK</span></a>
+                                </li>
+                                <li class="current-menu-item">
+                                    <a href="{{site.baseurl}}/contact.html"><span>CONTACT</span></a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <a class="responsive-menu-toggle" href="#"><i class="icon-menu-fine"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% if page.url == "/" %} {% include slider.html %} {% endif %}
+</header>

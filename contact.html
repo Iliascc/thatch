@@ -1,0 +1,70 @@
+--- 
+layout: page 
+title: Contact 
+permalink: contact.html 
+---
+
+<div id="Header_wrapper">
+    {% include header.html %}
+    <div id="Subheader" style="padding:80px 0 150px">
+        <div class="container">
+            <div class="column one">
+                <h1 class="title">{{page.title}}</h1>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="Content">
+    <div class="content_wrapper clearfix">
+        <div class="sections_group">
+            <div class="entry-content">
+                <div class="section mcb-section" style="padding-top:60px; padding-bottom:100px">
+                    <div class="section_wrapper mcb-section-inner">
+                        <div class="wrap mcb-wrap one valign-top clearfix">
+                            <div class="mcb-wrap-inner">
+                                <div class="column mcb-column one-second column_column">
+                                    <div class="column_attr clearfix" style=" padding:0 20% 0 0;">
+                                        <h2>CONTACT FORM</h2>
+                                        <hr class="no_line" style="margin:0 auto 15px">
+                                        <p>
+                                            You can leave us a message on the form below, or use any of our numbers at the bottom of every page on our website. Thank you for visiting our site!
+                                        </p>
+                                        <hr class="no_line" style="margin:0 auto 25px">
+                                        <div id="contactWrapper">
+                                            <form id="contactform">
+                                                <!-- One Second (1/2) Column -->
+                                                <div class="column one-second">
+                                                    <input placeholder="Your name" type="text" name="name" id="name" size="40" aria-required="true" aria-invalid="false" />
+                                                </div>
+                                                <!-- One Second (1/2) Column -->
+                                                <div class="column one-second">
+                                                    <input placeholder="Your e-mail" type="email" name="email" id="email" size="40" aria-required="true" aria-invalid="false" />
+                                                </div>
+                                                <div class="column one">
+                                                    <input placeholder="Subject" type="text" name="subject" id="subject" size="40" aria-invalid="false" />
+                                                </div>
+                                                <div class="column one">
+                                                    <textarea placeholder="Message" name="body" id="body" style="width:100%;" rows="10" aria-invalid="false"></textarea>
+                                                </div>
+                                                <div class="column one">
+                                                    <input type="button" value="Send A Message" id="submit" onClick="return check_values();">
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="column mcb-column one-second column_map">
+                                    <div class="google-map-wrapper no_border">
+                                        <div class="google-map" id="google-map-area-5xxxxxxxxx3" style="width:100%; height:600px;">
+                                            &nbsp;
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

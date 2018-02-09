@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
+<body class="color-custom style-default button-default layout-full-width if-zoom no-content-padding no-shadows header-classic header-fw minimalist-header sticky-header sticky-tb-color ab-hide subheader-both-center menu-link-color menuo-no-borders menuo-right logo-no-margin logo-overflow logo-no-sticky-padding mobile-tb-center mobile-side-slide mobile-mini-mr-ll tablet-sticky mobile-header-mini mobile-sticky be-1785">
+    <div id="Wrapper">
+
+      {{ content }}
+
+
+    {% include footer.html %}
+
+    </div>
+    <!-- Side Menu -->
+    <div id="Side_slide" class="right dark">
+        <div class="close-wrapper"> <a href="#" class="close"><i class="icon-cancel-fine"> </i></a> </div>
+        <div class="menu_wrapper"></div>
+    </div>
+    <div id="body_overlay"></div>
+    <!-- JS -->
+    {% include scripts.html %}
+  </body>
+
+</html>
